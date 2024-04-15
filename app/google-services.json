@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249674902582",
+    "project_id": "login-signup-firebase-82cca",
+    "storage_bucket": "login-signup-firebase-82cca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249674902582:android:5fe4724579d9913e0cbc97",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHCxbkwCmHlzqqgIQD9VJVG3dqTuqpyeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

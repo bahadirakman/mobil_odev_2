@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#e9e9e9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+
+    <TextView
+        android:id="@+id/tv_signup_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif"
+
+        android:gravity="center_horizontal"
+        android:text="Create an Account"
+        android:textColor="#FF555555"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_name"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/tv_signup_title"
+        android:layout_marginTop="50dp"
+
+        android:hint="Name (Required) "
+        android:textColorHint="@color/main_green"
+        app:boxBackgroundColor="@color/main_gray1"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeColor="@color/main_green"
+        app:boxStrokeErrorColor="@color/error_red"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/main_gray2"
+        app:hintTextColor="@color/main_green"
+        app:errorTextColor="@color/error_red"
+        app:errorIconDrawable="@null">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_name_layout_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_lastname"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/et_name"
+        android:layout_marginTop="25dp"
+
+        android:hint="Last Name (Required) "
+        android:textColorHint="@color/main_green"
+        app:boxBackgroundColor="@color/main_gray1"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeColor="@color/main_green"
+        app:boxStrokeErrorColor="@color/error_red"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/main_gray2"
+        app:hintTextColor="@color/main_green"
+        app:errorTextColor="@color/error_red"
+        app:errorIconDrawable="@null">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_lastname_layout_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_id"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/et_lastname"
+        android:layout_marginTop="25dp"
+
+        android:hint="Student ID (Required) "
+        android:textColorHint="@color/main_green"
+        app:boxBackgroundColor="@color/main_gray1"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeColor="@color/main_green"
+        app:boxStrokeErrorColor="@color/error_red"
+        app:counterEnabled="true"
+        app:counterMaxLength="8"
+        app:counterTextColor="@color/main_green"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/main_gray2"
+        app:hintTextColor="@color/main_green"
+        app:errorTextColor="@color/error_red"
+        app:errorIconDrawable="@null">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_id_layout_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:maxLength="8"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_email_signup"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/et_id"
+        android:layout_marginTop="15dp"
+
+        android:hint="Email (Required) "
+        android:textColorHint="@color/main_green"
+        app:boxBackgroundColor="@color/main_gray1"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeColor="@color/main_green"
+        app:boxStrokeErrorColor="@color/error_red"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/main_gray2"
+        app:hintTextColor="@color/main_green"
+        app:errorTextColor="@color/error_red"
+        app:errorIconDrawable="@null">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_email_signup_layout_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_password_signup"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/et_email_signup"
+        android:layout_marginTop="25dp"
+
+        android:hint="Password (Required) "
+        app:helperText="Password must contain minimum eight characters, at least one letter, at least one number and at least one special character"
+        android:textColorHint="@color/main_green"
+        app:boxBackgroundColor="@color/main_gray1"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxStrokeColor="@color/main_green"
+        app:boxStrokeErrorColor="@color/error_red"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/main_gray2"
+        app:hintTextColor="@color/main_green"
+        app:helperTextTextColor="@color/black"
+        app:errorTextColor="@color/error_red"
+        app:errorIconDrawable="@null">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_password_signup_layout_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+
+        android:backgroundTint="@color/main_green"
+
+        android:ems="12"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        tools:ignore="MissingConstraints" />
+</RelativeLayout>

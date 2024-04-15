@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#e9e9e9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="177dp"
+        android:text="Welcome"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/main_gray2"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textView1"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/main_gray2"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="@color/main_green"
+
+        android:ems="12"
+        android:text="Logout"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>
